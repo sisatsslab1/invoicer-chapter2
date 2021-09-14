@@ -9,6 +9,6 @@ ADD statics /app/statics/
 
 COPY /bin/invoicer /app/invoicer
 USER app
-EXPOSE 8080
+EXPOSE 8090
 WORKDIR /app
 ENTRYPOINT /app/invoicer
